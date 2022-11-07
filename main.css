@@ -348,7 +348,7 @@ a:hover{
     }
 
     .huevos{
-        top: 5%;
+        top: 0%;
         left: 0%;
         width: 100vw;
         height: 100vh;
@@ -367,7 +367,7 @@ a:hover{
     }
 
     .oruga{
-        top: -5%;
+        top: 0;
         left: 0%;
         width: 100vw;
         height: 100vh;
@@ -382,14 +382,14 @@ a:hover{
     
     .oruga-back{
         left: 5%;
-        top: 10%;
+        top: 12%;
         width: 90%;
-        height: 30%;
+        height: 20%;
         background-color: #343b23ed;
     }
 
     .crisalida{
-        top: 5%;
+        top: 0%;
         left: 0%;
         width: 100vw;
         height: 100vh;
@@ -406,11 +406,11 @@ a:hover{
         left: 5%;
         top: 60%;
         width: 90%;
-        height: 30%;
+        height: 15%;
     }
 
     .vuelo{
-        top: 3%;
+        top: 0%;
         left: 0%;
         width: 100vw;
         height: 100vh;
@@ -425,14 +425,14 @@ a:hover{
     
     .vuelo-back{
         left: 5%;
-        top: 60%;
+        top: 55%;
         width: 90%;
         height: 35%;
         background-color: #343b23df;
     }
 
     .muerta{
-        bottom: -10%;
+        bottom: 0%;
         left: 0%;
         width: 100vw;
         height: 100vh;
@@ -450,17 +450,17 @@ a:hover{
     .muerta-back{
         position: absolute;
         left: 50%;
-        bottom: 15%;
+        bottom: 10%;
         transform: translate(-50%,0);
         width: 90%;
-        height: 45%;
+        height: 40%;
         background-color: #343b2379; 
         border-radius: 20px;
         
     }
 
     .final{
-        top: 5%;
+        top: 0%;
         left: 0%;
         width: 100vw;
         height: 100vh;
@@ -478,7 +478,7 @@ a:hover{
         left: 5%;
         top: 30%;
         width: 90%;
-        height: 50%;
+        height: 60%;
         background-color: #343b2379;
     }
 
