@@ -62295,7 +62295,7 @@ mm.add("(max-width: 500px)", function () {
         duration: 2
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".huevos", {
-        y: -45,
+        "top": "0",
         "opacity": "1",
         "display": "block",
         duration: 1,
@@ -62307,7 +62307,7 @@ mm.add("(max-width: 500px)", function () {
       moveCamera(3.24935941868924, 0.35607541785011666, -2.2629124280771523);
       rotateCamera(-1.9442621601657235, 1.0864653301031928, 1.9876312082748786);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".huevos", {
-        y: 0,
+        "top": "5%",
         "opacity": "0",
         "display": "none",
         duration: 1
@@ -62400,7 +62400,7 @@ mm.add("(max-width: 500px)", function () {
       moveCamera(-1, -0.34, 7.27);
       rotateCamera(-0.9, 0, 0);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".huevos", {
-        y: 0,
+        "top": "5%",
         "opacity": "0",
         "display": "none",
         duration: 1
@@ -62424,7 +62424,7 @@ mm.add("(max-width: 500px)", function () {
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".huevos", {
-        y: -45,
+        "top": "0",
         "opacity": "1",
         "display": "block",
         duration: 1,
@@ -62951,6 +62951,25 @@ mm.add("(min-width: 913px)", function () {
     }
   };
 });
+var b_audio = document.querySelector('.btn-audio');
+var x = document.querySelector('.audio');
+var sp = document.querySelector('.speaker');
+var mu = document.querySelector('.muted');
+var flag = false;
+x.loop = true;
+b_audio.onclick = function () {
+  if (!flag) {
+    x.play();
+    flag = true;
+    sp.style.display = 'block';
+    mu.style.display = 'none';
+  } else {
+    x.pause();
+    flag = false;
+    sp.style.display = 'none';
+    mu.style.display = 'block';
+  }
+};
 })();
 
 /******/ })()
