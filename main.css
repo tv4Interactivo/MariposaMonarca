@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+}
+
+.scene{
+    position: fixed;
+    top: 0;
+    left: 0%;
+    outline: none;
+}
+
+.main-container{
+    z-index: 2;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #343b23; */
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+}
+
+strong{
+    font-size: 2rem;
+}
+
+.huevos{
+    position: absolute;
+    top: 0%;
+    left: -10%;
+    width: 50vw;
+    height: 100vh;
+    opacity: 0;
+    display: none;
+    /* background-color: #343b2322; */
+}
+
+.huevos h2{
+    top: 50%;
+    width: 90%;
+}
+
+.huevos-back{
+    position: absolute;
+    left: 0%;
+    top: 35%;
+    width: 80%;
+    height: 30%;
+    background-color: #343b2379; 
+    border-radius: 20px;
+}
+
+.oruga{
+    position: absolute;
+    top: 0%;
+    left: -10%;
+    width: 50vw;
+    height: 100vh;
+    opacity: 0;
+    display: none;
+    /* background-color: #343b2322;    */
+}
+
+.oruga h2{
+    top: 50%;
+    width: 90%;
+}
+
+.oruga-back{
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    width: 80%;
+    height: 20%;
+    background-color: #343b2379; 
+    border-radius: 20px;
+}
+
+.crisalida{
+    position: absolute;
+    top: 0%;
+    right: -15%;
+    width: 50vw;
+    height: 100vh;
+    opacity: 0;
+    display: none;
+    /* background-color: #343b2322;     */
+}
+
+.crisalida h2{
+    top: 50%;
+    width: 90%;
+}
+
+.crisalida-back{
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    width: 60%;
+    height: 20%;
+    background-color: #343b2379; 
+    border-radius: 20px;
+}
+
+.vuelo{
+    position: absolute;
+    top: 0%;
+    left: -5%;
+    width: 50vw;
+    height: 100vh;
+    opacity: 0;
+    display: none;
+    /* background-color: #343b2322;  */
+}
+
+.vuelo h2{
+    top: 50%;
+    width: 100%;
+    padding: 2rem;
+}
+
+.vuelo-back{
+    position: absolute;
+    left: 5%;
+    bottom: 15%;
+    width: 90%;
+    height: 30%;
+    background-color: #343b23df; 
+    border-radius: 20px;
+    
+}
+
+.muerta{
+    position: absolute;
+    bottom: -10%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    display: none;
+    /* background-color: #343b2322;  */
+}
+
+.muerta h2{
+    top: 50%;
+    width: 100%;
+    padding: 2rem;
+}
+
+.muerta-back{
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translate(-50%,0);
+    width: 50%;
+    height: 20%;
+    background-color: #343b2379; 
+    border-radius: 20px;
+    
+}
+
+.final{
+    position: absolute;
+    bottom: 0%;
+    right: -10%;
+    width: 50vw;
+    height: 100vh;
+    opacity: 0;
+    display: none;
+    /* background-color: #343b2322;  */
+}
+
+.final h2{
+    top: 50%;
+    width: 100%;
+    padding: 2rem;
+}
+
+.final-back{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    /* transform: translate(-50%,-50%); */
+    width: 80%;
+    height: 60%;
+    background-color: #343b23df; 
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #b2ca79;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.material-symbols-rounded {
+  color: rgb(87, 50, 50);
+  font-size: 40px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.nav-buttons{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem 0;
+    z-index: 1;
+}
+
+.btn p{
+    font-size: 20px;
+}
+
+.btn{
+    height: 100%;
+    width: 7%;
+    background: #b2ca79;
+    border: none;
+    border-radius: 10px;
+    margin: 0 5rem;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 50, 50);
+}
+
+.btn:hover{
+    background: #d5eba2;
+}
+
+.btn:active{
+    background: #94a864;
+}
+
+.img-logo{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    width: 5%;
+    height: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .nav-buttons{
+        margin: 0;
+        bottom: 10px;
+    }
+
+    .btn{
+        width: 20%;
+        margin: 0 1rem;
+    }
+
+    h1{
+        width: 100%;
+        font-size: 70px;
+    }
+    
+    h2{
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: 'Mukta Vaani', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .huevos{
+        top: 5%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+        /* background-color: #5a1fda66; */
+    }
+    
+    .huevos h2{
+        font-size: 25px;
+    }
+    
+    .huevos-back{
+        left: 5%;
+        top: 60%;
+        width: 90%;
+        height: 30%;
+    }
+
+    .oruga{
+        top: -5%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        display: none;
+        /* background-color: #5a1fda66;  */
+    }
+    
+    .oruga h2{
+        font-size: 25px;
+    }
+    
+    .oruga-back{
+        left: 5%;
+        top: 10%;
+        width: 90%;
+        height: 30%;
+        background-color: #343b23ed;
+    }
+
+    .crisalida{
+        top: 5%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        display: none;
+        /* background-color: #5a1fda66; */
+    }
+    
+    .crisalida h2{
+        font-size: 25px;
+    }
+    
+    .crisalida-back{
+        left: 5%;
+        top: 60%;
+        width: 90%;
+        height: 30%;
+    }
+
+    .vuelo{
+        top: 3%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        display: none;
+        /* background-color: #5a1fda66; */
+    }
+    
+    .vuelo h2{
+        font-size: 25px;
+    }
+    
+    .vuelo-back{
+        left: 5%;
+        top: 60%;
+        width: 90%;
+        height: 35%;
+        background-color: #343b23df;
+    }
+
+    .muerta{
+        bottom: -10%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        display: none;
+        /* background-color: #2e233b62;  */
+    }
+    
+    .muerta h2{
+        top: 50%;
+        width: 100%;
+        padding: 1rem;
+    }
+    
+    .muerta-back{
+        position: absolute;
+        left: 50%;
+        bottom: 15%;
+        transform: translate(-50%,0);
+        width: 90%;
+        height: 45%;
+        background-color: #343b2379; 
+        border-radius: 20px;
+        
+    }
+
+    .final{
+        top: 5%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        display: none;
+        /* background-color: #5a1fda66; */
+    }
+    
+    .final h2{
+        font-size: 25px;
+        padding: 1rem;
+    }
+    
+    .final-back{
+        left: 5%;
+        top: 30%;
+        width: 90%;
+        height: 50%;
+        background-color: #343b2379;
+    }
+
+    .img-logo{
+        top: 10px;
+        right: 5px;
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 912px){
+
+    .btn{
+        width: 30%;
+        margin: 0 2rem;
+    }
+
+    .img-logo{
+        position: absolute;
+        bottom: 20px;
+        right: 5px;
+        width: 10%;
+        height: auto;
+    }
+
+    .huevos{
+        top: 5%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+        /* background-color: #5a1fda66;  */
+    }
+    
+    .huevos h2{
+        font-size: 30px;
+    }
+    
+    .huevos-back{
+        left: 10%;
+        top: 65%;
+        width: 80%;
+        height: 20%;
+    }
+
+    .oruga{
+        top: -5%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        display: none;
+        /* background-color: #5a1fda66;  */
+    }
+    
+    .oruga h2{
+        font-size: 30px;
+    }
+    
+    .oruga-back{
+        left: 5%;
+        top: 10%;
+        width: 90%;
+        height: 20%;
+        background-color: #343b23ed;
+    }
+
+    .crisalida{
+        top: 5%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        display: none;
+        /* background-color: #5a1fda66; */
+    }
+    
+    .crisalida h2{
+        font-size: 30px;
+    }
+    
+    .crisalida-back{
+        left: 5%;
+        top: 60%;
+        width: 90%;
+        height: 20%;
+    }
+
+    .vuelo{
+        top: 3%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        display: none;
+        /* background-color: #5a1fda66; */
+    }
+    
+    .vuelo h2{
+        font-size: 30px;
+    }
+    
+    .vuelo-back{
+        left: 5%;
+        top: 73%;
+        width: 90%;
+        height: 20%;
+        background-color: #343b23df;
+    }
+
+    .muerta{
+        bottom: -10%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        display: none;
+        /* background-color: #2e233b62;  */
+    }
+    
+    .muerta h2{
+        top: 50%;
+        width: 100%;
+        padding: 1rem;
+        font-size: 30px;
+    }
+    
+    .muerta-back{
+        position: absolute;
+        left: 50%;
+        bottom: 25%;
+        transform: translate(-50%,0);
+        width: 90%;
+        height: 15%;
+        background-color: #343b2379; 
+        border-radius: 20px;
+        
+    }
+
+    .final{
+        top: 5%;
+        left: 0%;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0;
+        display: none;
+        /* background-color: #5a1fda66; */
+    }
+    
+    .final h2{
+        font-size: 30px;
+        padding: 1rem;
+    }
+    
+    .final-back{
+        left: 5%;
+        top: 30%;
+        width: 90%;
+        height: 35%;
+        background-color: #343b23b7;
+    }
+
+}
