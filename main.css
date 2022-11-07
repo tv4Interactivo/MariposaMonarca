@@ -162,13 +162,15 @@ strong{
 
 .vuelo-back{
     width: 90%;
-    height: 30%;
+    height: 25%;
     background-color: #343b23df;
     border-radius: 20px;
     margin: 15% 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
 .muerta{
@@ -316,6 +318,7 @@ a:hover{
     h1{
         width: 100%;
         font-size: 70px;
+        padding: 2rem;
     }
 
 
@@ -406,6 +409,7 @@ a:hover{
         height: 30%;
         background-color: #343b23df;
         margin: 20% 0;
+        padding: 0.5rem;
     }
 
     .muerta{
