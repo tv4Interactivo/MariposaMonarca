@@ -62295,7 +62295,7 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".huevos", {
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62311,7 +62311,7 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".oruga", {
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62327,7 +62327,7 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".crisalida", {
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62343,7 +62343,7 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vuelo", {
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62359,7 +62359,7 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".muerta", {
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62375,7 +62375,7 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".final", {
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62394,7 +62394,7 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".title", {
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62410,7 +62410,7 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".huevos", {
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62426,7 +62426,7 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".oruga", {
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62442,7 +62442,7 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".crisalida", {
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62458,7 +62458,7 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vuelo", {
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62474,7 +62474,7 @@ mm.add("(max-width: 500px)", function () {
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".muerta", {
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62717,9 +62717,9 @@ mm.add("(min-width: 913px)", function () {
         duration: 2
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".huevos", {
-        x: 200,
+        x: 100,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 2,
         delay: 2
       });
@@ -62735,9 +62735,9 @@ mm.add("(min-width: 913px)", function () {
         duration: 2
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".oruga", {
-        x: 200,
+        x: 100,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 2,
         delay: 2
       });
@@ -62755,7 +62755,7 @@ mm.add("(min-width: 913px)", function () {
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".crisalida", {
         x: -100,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 2,
         delay: 2
       });
@@ -62773,7 +62773,7 @@ mm.add("(min-width: 913px)", function () {
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vuelo", {
         x: 80,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 2,
         delay: 2
       });
@@ -62791,7 +62791,7 @@ mm.add("(min-width: 913px)", function () {
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".muerta", {
         y: -80,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 2,
         delay: 2
       });
@@ -62809,7 +62809,7 @@ mm.add("(min-width: 913px)", function () {
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".final", {
         x: -120,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 2,
         delay: 2
       });
@@ -62845,9 +62845,9 @@ mm.add("(min-width: 913px)", function () {
         duration: 2
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".huevos", {
-        x: 200,
+        x: 100,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 2,
         delay: 2
       });
@@ -62863,9 +62863,9 @@ mm.add("(min-width: 913px)", function () {
         duration: 2
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".oruga", {
-        x: 200,
+        x: 100,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 2,
         delay: 2
       });
@@ -62883,7 +62883,7 @@ mm.add("(min-width: 913px)", function () {
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".crisalida", {
         x: -100,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 2,
         delay: 2
       });
@@ -62901,7 +62901,7 @@ mm.add("(min-width: 913px)", function () {
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vuelo", {
         x: 80,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 2,
         delay: 2
       });
@@ -62919,7 +62919,7 @@ mm.add("(min-width: 913px)", function () {
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".muerta", {
         y: -80,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 2,
         delay: 2
       });
