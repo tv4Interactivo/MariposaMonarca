@@ -62489,14 +62489,12 @@ mm.add("((min-width: 501px) and (max-width: 912px))", function () {
       moveCamera(-1, -0.162989284413636, 0.55889997847141943);
       rotateCamera(-0.8061243435487276, -0.3826089397240207, -0.3711161672352676);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".title", {
-        y: -50,
         opacity: 0,
         duration: 2
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".huevos", {
-        y: -45,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62506,15 +62504,13 @@ mm.add("((min-width: 501px) and (max-width: 912px))", function () {
       moveCamera(3.24935941868924, 0.35607541785011666, -2.2629124280771523);
       rotateCamera(-1.9442621601657235, 1.0864653301031928, 1.9876312082748786);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".huevos", {
-        y: 0,
         "opacity": "0",
         "display": "none",
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".oruga", {
-        y: 50,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62524,15 +62520,13 @@ mm.add("((min-width: 501px) and (max-width: 912px))", function () {
       moveCamera(1.825202251052966, 0.19181208945777945, -5.408932311090976);
       rotateCamera(-0.4047258515661717, -0.24169063185527995, -0.10217216945550288);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".oruga", {
-        y: 0,
         "opacity": "0",
         "display": "none",
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".crisalida", {
-        y: -45,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62542,15 +62536,13 @@ mm.add("((min-width: 501px) and (max-width: 912px))", function () {
       moveCamera(3.650946696083983, 2.203923047601165, -4.469572812581315);
       rotateCamera(0.9481752807145264, 0.9224187630396405, -0.8376242463195234);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".crisalida", {
-        y: 0,
         "opacity": "0",
         "display": "none",
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vuelo", {
-        y: -70,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62560,15 +62552,13 @@ mm.add("((min-width: 501px) and (max-width: 912px))", function () {
       moveCamera(-1.995137359554123, -0.1230119841990371, -4.930600069246379);
       rotateCamera(-2.123844464189408, 1.1008055927843868, 2.158855709362182);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vuelo", {
-        y: 0,
         "opacity": "0",
         "display": "none",
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".muerta", {
-        y: -45,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62578,15 +62568,13 @@ mm.add("((min-width: 501px) and (max-width: 912px))", function () {
       moveCamera(-0.19616571605272015, -0.5308979658441256, 7.077467229014261);
       rotateCamera(0.10307067525618527, 0.14450618414773106, -0.014894249844153324);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".muerta", {
-        y: 0,
         "opacity": "0",
         "display": "none",
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".final", {
-        y: -45,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62599,15 +62587,13 @@ mm.add("((min-width: 501px) and (max-width: 912px))", function () {
       moveCamera(-1, -0.34, 7.27);
       rotateCamera(-0.9, 0, 0);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".huevos", {
-        y: 0,
         "opacity": "0",
         "display": "none",
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".title", {
-        y: 0,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62617,15 +62603,13 @@ mm.add("((min-width: 501px) and (max-width: 912px))", function () {
       moveCamera(-1, -0.262989284413636, 0.55889997847141943);
       rotateCamera(-0.8061243435487276, -0.3826089397240207, -0.3711161672352676);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".oruga", {
-        y: 0,
         "opacity": "0",
         "display": "none",
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".huevos", {
-        y: -45,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62635,15 +62619,13 @@ mm.add("((min-width: 501px) and (max-width: 912px))", function () {
       moveCamera(3.24935941868924, 0.35607541785011666, -2.2629124280771523);
       rotateCamera(-1.9442621601657235, 1.0864653301031928, 1.9876312082748786);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".crisalida", {
-        y: 0,
         "opacity": "0",
         "display": "none",
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".oruga", {
-        y: 50,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62653,15 +62635,13 @@ mm.add("((min-width: 501px) and (max-width: 912px))", function () {
       moveCamera(1.825202251052966, 0.19181208945777945, -5.408932311090976);
       rotateCamera(-0.4047258515661717, -0.24169063185527995, -0.10217216945550288);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vuelo", {
-        y: 0,
         "opacity": "0",
         "display": "none",
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".crisalida", {
-        y: -45,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62671,15 +62651,13 @@ mm.add("((min-width: 501px) and (max-width: 912px))", function () {
       moveCamera(3.650946696083983, 2.203923047601165, -4.469572812581315);
       rotateCamera(0.9481752807145264, 0.9224187630396405, -0.8376242463195234);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".muerta", {
-        y: 0,
         "opacity": "0",
         "display": "none",
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".vuelo", {
-        y: -70,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
@@ -62689,15 +62667,13 @@ mm.add("((min-width: 501px) and (max-width: 912px))", function () {
       moveCamera(-1.995137359554123, -0.1230119841990371, -4.930600069246379);
       rotateCamera(-2.123844464189408, 1.1008055927843868, 2.158855709362182);
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".final", {
-        y: 0,
         "opacity": "0",
         "display": "none",
         duration: 1
       });
       gsap__WEBPACK_IMPORTED_MODULE_4__.gsap.to(".muerta", {
-        y: -45,
         "opacity": "1",
-        "display": "block",
+        "display": "flex",
         duration: 1,
         delay: 2
       });
