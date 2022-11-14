@@ -62903,25 +62903,28 @@ mm.add("(min-width: 913px)", function () {
     }
   };
 });
-var b_audio = document.querySelector('.btn-audio');
-var x = document.querySelector('.audio');
-var sp = document.querySelector('.speaker');
-var mu = document.querySelector('.muted');
-var flag = false;
-x.loop = true;
-b_audio.onclick = function () {
-  if (!flag) {
-    x.play();
-    flag = true;
-    sp.style.display = 'block';
-    mu.style.display = 'none';
-  } else {
-    x.pause();
-    flag = false;
-    sp.style.display = 'none';
-    mu.style.display = 'block';
-  }
-};
+
+// var b_audio = document.querySelector('.btn-audio')
+// var x = document.querySelector('.audio')
+// var sp = document.querySelector('.speaker')
+// var mu = document.querySelector('.muted')
+// var flag = false
+// x.loop = true
+
+// b_audio.onclick = function(){
+//     if(!flag){
+//         x.play()
+//         flag = true
+//         sp.style.display = 'block'
+//         mu.style.display = 'none'
+//     }
+//     else{
+//         x.pause()
+//         flag = false
+//         sp.style.display = 'none'
+//         mu.style.display = 'block'
+//     }
+// }
 })();
 
 /******/ })()
